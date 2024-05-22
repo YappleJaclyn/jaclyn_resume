@@ -1,11 +1,13 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import CSS from "csstype";
 
 type FeatureItem = {
   title: string;
   src: string;
   description: JSX.Element;
+  style?: CSS.Properties;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -38,11 +40,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, src, description }: FeatureItem) {
+function Feature({ title, src, description, style }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={src} />
+        <img style={style} src={src} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

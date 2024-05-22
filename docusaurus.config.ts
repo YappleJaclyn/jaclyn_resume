@@ -64,19 +64,18 @@ const config: Config = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
+      hideOnScroll: true,
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/yapplejack',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://www.linkedin.com/in/jack-ferguson9176',
+          label: 'LinkedIn',
+          position: 'right'
+        }
       ],
     },
     footer: {
