@@ -44,7 +44,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Jack Ferguson`}
-      description="Engineer">
+      description="Swiss Army Knife Engineer">
       <HomepageHeader />
       <Tabs className='tabs--block'>
         <TabItem value="photos" label="Visual Sample" default>
