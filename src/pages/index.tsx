@@ -47,7 +47,7 @@ export default function Home(): JSX.Element {
       description="Swiss Army Knife Engineer">
       <HomepageHeader />
       <Tabs className='tabs--block'>
-        <TabItem value="photos" label="Visual Sample" default>
+        <TabItem value="photos" label="Visual Sample">
           <div style={{ width: '95%', margin: '0 auto', textAlign: 'center' }}>
             <h1>2024 Robots</h1>
             <br />
@@ -115,14 +115,14 @@ export default function Home(): JSX.Element {
             </div>
           </div>
         </TabItem>
-        <TabItem value="orange" label="Education & Work">
-          <div style={{ width: '100%', maxWidth: '1600px', margin: '0 auto' }}>
+        <TabItem value="orange" label="Education & Work" default>
+          <div style={{ width: '100%', maxWidth: '1280px', margin: '0 auto' }}>
             <div className="row">
               <div className="col col--3 ">
-                <h3 style={{ textAlign: 'center' }}>Bachelor of Science in Engineering (BSE), Computer Science, University of Michigan Ann Arbor</h3>
-                <div style={{ textAlign: 'center' }} className="col-demo"><div style={{ overflow: 'hidden', display: 'inline-block', margin: '0.00px 0.00px', border: '0.00px solid #000000', transform: 'rotate(0.00rad) translateZ(0px)', width: '75%', height: 'auto' }}><img src={require('/static/img/homepage/BlockM_Blue_Background.jpg').default} /></div><br /></div>
+                <h3 style={{ textAlign: 'center', fontSize: '1.2rem' }}>Bachelor of Science in Engineering (BSE), Computer Science, University of Michigan Ann Arbor</h3>
+                <div style={{ textAlign: 'center' }} className="col-demo"><div style={{ overflow: 'hidden', display: 'inline-block', margin: '0.00px 0.00px', border: '0.00px solid #000000', transform: 'rotate(0.00rad) translateZ(0px)', width: '90%', height: 'auto' }}><img src={require('/static/img/homepage/BlockM_Blue_Background.jpg').default} /></div><br /></div>
               </div>
-              <div className="col col--3" style={{ fontSize: '14pt' }}>
+              <div className="col col--7" style={{ fontSize: '1.083rem' }}>
                 <br />
                 <div className="col-demo">Relevant coursework:
                   <ul>
@@ -139,10 +139,10 @@ export default function Home(): JSX.Element {
             <hr />
             <div className="row">
               <div className="col col--3 ">
-                <h2 style={{ textAlign: 'center' }}>Technical Intern at NASA</h2>
+                <h3 style={{ textAlign: 'center', fontSize: '1.2rem' }}>Technical Intern at NASA</h3>
                 <div style={{ textAlign: 'center' }} className="col-demo"><div style={{ overflow: 'hidden', display: 'inline-block', margin: '0.00px 0.00px', border: '0.00px solid #000000', transform: 'rotate(0.00rad) translateZ(0px)', width: '100%', height: 'auto' }}><img src={require('/static/img/homepage/NASA_logo.svg.png').default} /></div><br /></div>
               </div>
-              <div className="col col--7" style={{ fontSize: '14pt' }}>
+              <div className="col col--7" style={{ fontSize: '1.083rem' }}>
                 <br />
                 <div className="col-demo">
                   <ul>
@@ -158,10 +158,10 @@ export default function Home(): JSX.Element {
             <hr />
             <div className="row">
               <div className="col col--3 ">
-                <h2 style={{ textAlign: 'center' }}>Engineering Staff at FIRST in Michigan</h2>
+                <h3 style={{ textAlign: 'center' }}>Engineering Staff at FIRST in Michigan</h3>
                 <div style={{ textAlign: 'center' }} className="col-demo"><img src={require('/static/img/homepage/download.png').default} /><br /></div>
               </div>
-              <div className="col col--7" style={{ fontSize: '14pt' }}>
+              <div className="col col--7" style={{ fontSize: '1.083rem' }}>
                 <br />
                 <div className="col-demo">
                   <ul>
@@ -175,10 +175,10 @@ export default function Home(): JSX.Element {
             <hr />
             <div className="row">
               <div className="col col--3 ">
-                <h2 style={{ textAlign: 'center' }}>Lead Robotics Coordinator at the Michigan Engineering Zone</h2>
+                <h3 style={{ textAlign: 'center' }}>Lead Robotics Coordinator at the Michigan Engineering Zone</h3>
                 <div style={{ textAlign: 'center' }} className="col-demo"><img src={require('/static/img/homepage/download (1).png').default} /><br /></div>
               </div>
-              <div className="col col--7" style={{ fontSize: '14pt' }}>
+              <div className="col col--7" style={{ fontSize: '1.083rem' }}>
                 <br />
                 <div className="col-demo">
                   <ul>
@@ -193,10 +193,10 @@ export default function Home(): JSX.Element {
             <hr />
             <div className="row">
               <div className="col col--3 ">
-                <h2 style={{ textAlign: 'center' }}>Research Assistant at Computational Human Artificial Intelligence (CHAI) Lab</h2>
+                <h3 style={{ textAlign: 'center' }}>Research Assistant at Computational Human Artificial Intelligence (CHAI) Lab</h3>
                 <div style={{ textAlign: 'center' }} className="col-demo"><div style={{ overflow: 'hidden', display: 'inline-block', margin: '0.00px 0.00px', border: '0.00px solid #000000', transform: 'rotate(0.00rad) translateZ(0px)', width: '60%', height: 'auto' }}><img src={require('/static/img/homepage/1XOhMGLt_400x400.jpg').default} /></div><br /></div>
               </div>
-              <div className="col col--7" style={{ fontSize: '14pt' }}>
+              <div className="col col--7" style={{ fontSize: '1.083rem' }}>
                 <br />
                 <div className="col-demo">
                   <ul>
@@ -211,10 +211,10 @@ export default function Home(): JSX.Element {
             <hr />
             <div className="row">
               <div className="col col--3 ">
-                <h2 style={{ textAlign: 'center' }}>Research Assistant at Dynamic Project Management Lab</h2>
+                <h3 style={{ textAlign: 'center' }}>Research Assistant at Dynamic Project Management Lab</h3>
                 <div style={{ textAlign: 'center' }} className="col-demo"><img src={require('/static/img/homepage/image-22-1024x462.webp').default} /><br /></div>
               </div>
-              <div className="col col--7" style={{ fontSize: '14pt' }}>
+              <div className="col col--7" style={{ fontSize: '1.083rem' }}>
                 <br />
                 <div className="col-demo">
                   <ul>
