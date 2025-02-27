@@ -24,7 +24,7 @@ function HomepageHeader() {
               <Heading as="h1" className="hero__title">
                 {siteConfig.title}
               </Heading>
-              <p className="hero__subtitle">A swiss army knife engineer with experience in Full Stack Web Development, Robot Programming, 3D programs/simulation, Computer Vision, Mechanical Design and Manufacturing</p>
+              <p className="hero__subtitle">A swiss army knife engineer with experience in Full Stack Web Development, Embedded Software, 3D simulation, Computer Vision, Mechanical Design and Manufacturing</p>
             </div>
           </div>
           <div className="col col--6">
