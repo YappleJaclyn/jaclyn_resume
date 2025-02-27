@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Jack Ferguson',
+  title: 'Jaclyn Ferguson',
   tagline: 'Swiss Army Knife Engineer',
   favicon: 'img/favicon.ico',
 
@@ -11,12 +11,12 @@ const config: Config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/jacklf_resume/',
+  baseUrl: '/jaclyn_resume/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'yapplejack', // Usually your GitHub org/user name.
-  projectName: 'jacklf_resume', // Usually your repo name.
+  projectName: 'jaclyn_resume', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -64,22 +64,17 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Jack Ferguson',
+      title: 'Jaclyn Ferguson',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/download20240502163550.png',
       },
       hideOnScroll: true,
       items: [
         {
-          href: 'https://github.com/yapplejack',
+          href: 'https://github.com/YappleJaclyn',
           label: 'GitHub',
           position: 'right',
-        },
-        {
-          href: 'https://www.linkedin.com/in/jack-ferguson9176',
-          label: 'LinkedIn',
-          position: 'right'
         }
       ],
     },
