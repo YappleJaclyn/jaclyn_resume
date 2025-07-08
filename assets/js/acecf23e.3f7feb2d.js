@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjacklf_resume=self.webpackChunkjacklf_resume||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/jaclyn_resume/blog","blogTitle":"Blog"}')}}]);

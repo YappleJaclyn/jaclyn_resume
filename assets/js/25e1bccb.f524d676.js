@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjacklf_resume=self.webpackChunkjacklf_resume||[]).push([[6356],{9193:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/jacklf_resume/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
