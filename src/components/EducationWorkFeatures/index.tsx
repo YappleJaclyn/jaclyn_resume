@@ -33,30 +33,6 @@ const FeatureList: EduFeature[] = [
         imgStyle: { width: "90%" }
     },
     {
-        title: 'Robotics Intern at NASA',
-        src: require('/static/img/homepage/NASA_logo.svg.png').default,
-        description: (
-            <>
-                <div className="col-demo">
-                    <ul>
-                        <li>Maintained the <a href="https://robotics.nasa.gov/" target="_blank">NASA RAP</a> website using JavaScript, PHP and SQL</li>
-                        <li>Created and deployed a React based documentation <a href="https://robonauts-everybot.github.io/Everybot-Docs/" target="_blank">website</a> for the NASA Robonaut's Everybot, a low-resource FIRST Robotics Competition (FRC) robot</li>
-                        <li>Developed an automated conversion from Google Docs to Markdown for ease of documentation contribution</li>
-                        <li>Designed & manufactured the  Everybot in addition to creation of the public <a href="https://cad.onshape.com/documents/322c7df6642d82ddf075940f/w/8ad012ad66362b6d4f5577e0/e/e921bded1f7315514cafb5a6?renderMode=0&uiState=67c09900f01c7d1213d21fb4" target="_blank">CAD</a> and <a href="https://github.com/Robonauts-Everybot/Everybot-2025-Code" target="_blank">Java robot code</a></li>
-                        <li>Built Accessible Modular Onshape CAD document for international FTC (FIRST Tech Challenge) <a href="https://cad.onshape.com/documents/a2212ec4d0ff04ecfa468fab/w/de74c2fa846c84827f4ffeb0/e/a069a0c4d53cbe62662539e1" target="_blank">Everybot</a> student use</li>
-                        <li>Volunteered time to create <a href='https://cad.onshape.com/documents/0b2fddf6cbaed8ae6e810a63/w/585256f8e7c40d2046d984c7/e/4320ca0c1560b09ddf06fefd' target="_blank">community swerve generator</a>, which allowed the Everybot to <a href="https://cad.onshape.com/documents/6092fa1a75b6df7bcb1491a8/w/f9d68b609e79b6061a0e1a79/e/e58e73b32e4d959aa141624c" target='_blank'>automatically generate on top of the specified drivetrain</a></li>
-                        <li>Published hundreds of pages of technical documentation and several manuals that enabled over 2000 high schools to
-                            complete robots</li>
-                        <li>Provided support to hundreds of students struggling with logistical and/or technical difficulties in construction of their robots</li>
-                        <li> Delivered Data Collection and Analytics for FRC Robot/Drivetrain adoption rates to evaluate community health and necessity for future initiatives</li>
-                    </ul>
-                </div>
-            </>
-        ),
-        dates: 'Jan 2024 - Present',
-        imgStyle: { width: "100%" }
-    },
-    {
         title: 'Controls Engineering Consultant',
         src: require('/static/img/jobs+experience/dixie.png').default,
         description: (
